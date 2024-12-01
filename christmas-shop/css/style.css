@@ -1,1 +1,253 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  background-image: url('../images/hero.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#hero a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#hero a:hover {
+  background-color: #d62e2a;
+}
+
+/* About Section */
+#about {
+  padding: 50px 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Best Gifts Section */
+#best-gifts {
+  padding: 50px 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#best-gifts h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#best-gifts .gift-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#best-gifts .gift-card {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+}
+
+#best-gifts .gift-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#best-gifts .gift-card p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Gifts Section */
+#gifts {
+  padding: 50px 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#gifts h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#gifts .tabs {
+  margin-bottom: 20px;
+}
+
+#gifts .tab {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#gifts .tab:hover {
+  background-color: #ddd;
+}
+
+#gifts .tab.active {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+#gifts .gift-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#gifts .gift-card {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+}
+
+#gifts .gift-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#gifts .gift-card p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .contact-card {
+  margin-bottom: 20px;
+}
+
+footer .contact-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+footer .contact-card a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+footer .contact-card a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
 
